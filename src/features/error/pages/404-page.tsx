@@ -1,5 +1,4 @@
-import { PageContainer } from "@/components/layouts/PageContainer";
-import { SectionContainer } from "@/components/layouts/SectionContainer";
+import { PageContainer, SectionContainer } from "@/components/layouts";
 import { Heading } from "@/components/ui/heading";
 
 export const Error404Page = () => {

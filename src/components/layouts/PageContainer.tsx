@@ -20,7 +20,7 @@ export const PageContainer = forwardRef<
   ) => {
     return (
       <div className="h-full w-full">
-        <HeadMetaData />
+        <HeadMetaData title={props.title} />
         {withHeader && <Header />}
         <main ref={ref} className={cn("flex flex-col", className)} {...props}>
           {children}
