@@ -9,7 +9,7 @@ export const sidebarMenu = [
       },
       {
         title: "Product",
-        url: "/dashboard/prouct",
+        url: "/dashboard/product",
         icon: "Table",
       },
     ],

@@ -3,7 +3,7 @@ import {
   SidebarContent,
 } from "@/components/ui/sidebar";
 import { renderElements } from "@/utils/render-elements";
-import { sidebarMenu } from "./menu";
+import { sidebarMenu } from "./sidebar-menu";
 import { SidebarGroup } from "./SidebarGroup";
 
 export function Sidebar() {

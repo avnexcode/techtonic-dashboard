@@ -18,7 +18,8 @@ export const HomePage = () => {
               className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]"
               href="/dashboard"
             >
-              Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
+              Open <span className="text-[hsl(280,100%,70%)]">Techtonic</span>{" "}
+              Dashboard
             </Link>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
               <SonnerButton />
@@ -29,10 +30,9 @@ export const HomePage = () => {
             <div>
               {renderElements({
                 of: [...new Array<undefined>(10)],
+                keyExtractor: (_, index) => index,
                 render: (_, index) => (
-                  <p key={index} className="text-2xl text-white">
-                    Hello World
-                  </p>
+                  <p className="text-2xl text-white">Hello World {index}</p>
                 ),
               })}
             </div>

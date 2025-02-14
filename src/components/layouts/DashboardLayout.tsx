@@ -1,5 +1,5 @@
 import { SidebarProvider } from "@/components/ui/sidebar";
-import { Navbar } from "../fragments/navbar";
+import { Navbar } from "../fragments/navbar-dashboard";
 import { Sidebar } from "../fragments/sidebar";
 
 type DashboardLayoutProps = {
